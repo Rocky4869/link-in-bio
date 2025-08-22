@@ -10,7 +10,7 @@ const Icons = () => {
       "hover:bg-[#cd201f]",
       "hover:bg-[#0077b5]",
     ];
-    return hoverStyles[index] || "hover:bg-white";
+    return hoverStyles[index];
   };
 
   return (

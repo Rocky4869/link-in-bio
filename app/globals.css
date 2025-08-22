@@ -2,3 +2,28 @@
 @tailwind components;
 @tailwind utilities;
 
+.wallpaper-container {
+  position: relative;
+  background: url("../public/images/wallpaper.png") no-repeat center center
+    fixed;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    filter: blur(10px);
+  }
+  100% {
+    opacity: 1;
+    filter: blur(0);
+  }
+}
+
+.animated {
+  opacity: 0;
+  animation: fadeIn 2s ease-in-out forwards;
+}

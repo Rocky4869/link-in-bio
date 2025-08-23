@@ -4,7 +4,7 @@
 
 .wallpaper-container {
   position: relative;
-  background: url("../public/images/wallpaper.png") no-repeat center center
+  background: url("../public/images/wallpaper.jpg") no-repeat center center
     fixed;
   background-size: cover;
   width: 100vw;

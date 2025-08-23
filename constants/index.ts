@@ -75,6 +75,5 @@ export const socialLinks: SocialLink[] = [
 ];
 
 export const images = {
-  myPhoto: "/images/myphoto.png",
-  wallpaper: "/images/wallpaper.png",
+  myPhoto: "/images/myphoto.jpg", 
 };
